@@ -927,5 +927,5 @@ body, .container {
   background: transparent;    /* blend with page; set to #f9f9f9 if you want a bar */
   padding: 30px 20px;         /* inner spacing */
   border: 0;   
-  margin-top: -70px;               /* no border since it's not floating */
+  margin-top: -35px;               /* no border since it's not floating */
 }
