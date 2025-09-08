@@ -339,7 +339,7 @@ body, .container {
   content:"";
   position:absolute;
   top:50%;
-  width:36px; height:1px;
+  width:12px; height:1px;
   background:var(--muted);
 }
 .ft-title::before{ right:100%; margin-right:12px; }
@@ -759,27 +759,6 @@ body, .container {
 }
 .ft-social-top{ margin-top:8px; } /* 标题和图标之间的间距 */
 
-/* 标题：左右细线 + 全大写 */
-.ft-title{
-  position:relative;
-  display:inline-block;
-  color:var(--muted);
-  font-weight:700;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  margin:0 0 12px;
-  padding:0 14px;
-}
-.ft-title::before,
-.ft-title::after{
-  content:"";
-  position:absolute;
-  top:50%;
-  width:36px; height:1px;
-  background:var(--muted);
-}
-.ft-title::before{ right:100%; margin-right:12px; }
-.ft-title::after { left:100%;  margin-left:12px;  }
 
 /* 邮箱样式 */
 .ft-email{
